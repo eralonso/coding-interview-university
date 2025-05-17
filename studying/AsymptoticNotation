@@ -1,0 +1,82 @@
+[Asymptotic Notation]
+
+The way for measure how time scales by the amount of inputs given to a program/algorithm.
+
+
+[Notations]
+
+- Big-O
+
+O(complexity(number of inputs))
+
+- Omega
+
+Ω(complexity(the best case))
+
+As O represents the grow of time by the number of inputs, omega represents the complexity of the best case.
+
+- Theta
+
+if O is equal to Ω then θ is equal to Ω or O, cause there are equal.
+
+Theta is used when the algorithm has the same complexity both, in O and Ω.
+So you can avoid to put both and put only θ.
+
+
+[Complexities]
+
+- Linear O(n) Ω(1) // Same as O(function that returns the same number(n))
+
+O Complexity: Time grow by the amount of inputs given.
+Ω Complexity: Time is constant when the amount of inputs is one.
+
+Theorical ex: 
+
+  If the you have to proccess three numbers the time is three times more than for one number.
+
+Practical ex:
+
+  An algorithm that counts the size of array.
+
+  1: [1] -> x time
+  2: [1, -6] -> 2x time
+  3: [1, 9, 0] -> 3x time
+
+
+- Constant (O(1) Ω(1)) -> θ(1)
+
+O Complexity: Time don't grow, is always the same.
+Ω Complexity: Time is constant when the amount of inputs is one.
+
+Theorical ex:
+
+  No matter the amount of inputs given, or its size.
+  If you have one input the time will be the same as having one million.
+
+Practical ex:
+
+  Use a variable to store the size of array.
+
+  1. [1] -> x time
+  2. [0, 1.2, -45] -> x time
+  3. [1, 4, 1, 1, 4, 1, 1, 4, 1, 1, 4, 1, 1, 4, 1, 1, 4, 1] -> x time
+
+- Exponential O(2^n) Ω(2)
+
+Complexity: The time grow 	
+
+Theorical ex:
+
+
+Practical ex:
+
+
+- Logarithm O(log2(n)) Ω(1)
+
+Complexity:
+
+Theorical ex:
+
+
+Practical ex:
+
